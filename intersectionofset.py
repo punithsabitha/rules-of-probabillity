@@ -1,0 +1,14 @@
+# create the two sets of two guest lists
+set1 = {'A','B','C','D','E'}
+set2 = {'B','D','V','X','Y','Z'}
+
+# find union of two sets
+union = set1.intersection(set2)
+
+# converting set into list
+# to find total guests to be invited in the party
+
+total_guests = list(union)
+
+print("Total guests to be invited in the party are:", len(total_guests))
+print("Guest List", total_guests)
